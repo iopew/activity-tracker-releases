@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="icon.png" width="128" alt="ActivityTracker">
+  <img src="icon.png" width="128" alt="Argus">
 </p>
 
-<h1 align="center">ActivityTracker</h1>
+<h1 align="center">Argus</h1>
 
 <p align="center">
   <b>A private time and Mac-health tracker for macOS.</b><br>
+  <i>Named after Argus, the hundred-eyed giant who never slept.</i><br>
   How long you were at the computer, in which apps and on which websites, what drains the battery and what keeps
   your Mac awake.<br>
   Everything is computed and stored on your Mac only.
@@ -17,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/01-activity.png" width="900" alt="ActivityTracker window: today's activity">
+  <img src="screenshots/01-activity.png" width="900" alt="Argus window: today's activity">
 </p>
 
 ---
@@ -70,6 +71,7 @@
    rm -rf /Applications/ActivityTracker.app && mv ActivityTracker.app /Applications/
    open /Applications/ActivityTracker.app
    ```
+   (The file is still called `ActivityTracker.app`; Finder and the Dock show it as **Argus**.)
 3. On the first launch the app **restarts itself once**: it signs itself with a permanent key created on your Mac, so permissions survive updates.
 4. Grant permissions:
    - **Accessibility** (System Settings → Privacy & Security) to record window titles;
@@ -110,7 +112,7 @@ rm -rf ~/Library/Application\ Support/ActivityTracker
 rm -rf ~/Library/Caches/com.iopew.ActivityTracker ~/Library/Logs/ActivityTracker
 defaults delete com.iopew.ActivityTracker
 ```
-Then remove ActivityTracker from Accessibility, Automation and Login Items in System Settings.
+Then remove Argus from Accessibility, Automation and Login Items in System Settings.
 </details>
 
 <details>
